@@ -1,0 +1,61 @@
+# Raw sequencing and archives
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fasta
+*.fa
+*.bam
+*.sam
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Large analysis objects and databases
+*.rds
+*.RData
+*.Rhistory
+*.biom
+*.qza
+*.qzv
+*.sif
+*.udb
+*.sqlite
+*.db
+
+# Results, logs and temporary files
+data/
+raw_data/
+results/
+output/
+outputs/
+logs/
+tmp/
+.tmp*/
+*.out
+*.err
+*.log
+github_upload_log.txt
+
+# Manuscripts and local office files
+*.docx
+*.pdf
+~$*
+
+# Credentials and local configuration
+.env
+*.key
+*.pem
+credentials*
+secrets*
+config/local*
+
+# IDE / OS
+.Rproj.user/
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
